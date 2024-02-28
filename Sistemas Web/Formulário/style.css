@@ -1,96 +1,64 @@
 body {
     text-align: center;
     margin-top: 50px;
-   }
-   #geral{
+}
+
+#geral {
     text-align: start;
     margin-top: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-   }
-   .container {
-    text-align:left;
-   }
-   .rounded-image {
-    border-radius: 80%;
-    width: 250px;
-    height: 250px;
-    object-fit:cover;
-   }
-   form {
-    margin-top: 20px;
-   }
-   form label {
-    display: block;
-    margin-bottom: 5px;
-   }
-   form input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    border-style:solid;
-    border-width: 1px;
-   }
-    
-   #button {
-       background-color: #3498db;
-       color: #fff;
-       padding: 10px 20px;
-       border: none;
-       border-radius: 3px;
-       cursor: pointer;
-       margin-bottom: 10px;  
-       margin-top: 8px;
-    }
-    #button:hover {
-    background-color: #195983;
-    border-width: 10px;
-   }
-   #msg{
+}
+
+#titulo {
+    padding: 15px;
+    background-color: rgb(249, 244, 202);
+}
+
+#msg {
     background-color: rgb(255, 255, 240);
     margin-top: 10px;
     border-radius: 5px;
     height: 100px;
     width: 97%;
     text-align: start;
-   }
-   #satisfeito{
-       background-color: aliceblue;
-       border-width: 1px;
-       border-style: solid;
-       border-radius: 5px;
-       padding: 15px;
-       width: 25%;
-       height: 300px;
-       margin-right: 50px;
-   }
-   #duvida{
-       background-color: antiquewhite;
-       border-width: 1px;
-       border-style: solid;
-       border-radius: 5px;
-       padding: 15px;
-       width: 20%;
-       height: 300px;
-       margin-right: 50px;
-   }
-   #encontrou{
+}
+
+#satisfeito {
+    background-color: aliceblue;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 15px;
+    width: 25%;
+    height: 300px;
+    margin-right: 50px;
+}
+
+#duvida {
+    background-color: antiquewhite;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 15px;
+    width: 20%;
+    height: 300px;
+    margin-right: 50px;
+}
+
+#encontrou {
     background-color: rgb(230, 255, 230);
-       border-width: 1px;
-       border-style: solid;
-       border-radius: 5px;
-       padding: 15px;
-       width: 25%;
-       height: 300px;
-   }
-   #selecao{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 15px;
+    width: 25%;
+    height: 300px;
+}
+
+#selecao {
     background-color: aliceblue;
     width: 15%;
     border-radius: 5px;
-   }
-   #titulo{
-    padding: 15px;
-    background-color: rgb(249, 244, 202);
-   }
+}

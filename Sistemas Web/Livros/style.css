@@ -1,20 +1,23 @@
+
 #livro1 {
     display: flex;
 }
+
 #descricao {
     width: 300px;
     font-size: 14px;
 }
+
 #descricao2 {
     width: 400px;
     font-size: 14px;
     margin-right: px;
 }
 
- 
 #imgLivro {
-margin-top: 20px;
+    margin-top: 20px;
 }
+
 #categoriaLivro1 {
     background-color: rgb(243, 218, 183);
     text-align: center;
@@ -22,8 +25,9 @@ margin-top: 20px;
     padding: 8px;
     margin-bottom: 50px;
     margin-top: 20px;
-    
+
 }
+
 #categoriaLivro {
     background-color: rgb(243, 218, 183);
     text-align: center;
@@ -32,6 +36,7 @@ margin-top: 20px;
     margin-bottom: 50px;
     margin-top: 50px;
 }
+
 #tituloLivro {
     width: 300px;
 }
@@ -41,10 +46,12 @@ margin-top: 20px;
     border-radius: 5px;
     width: 170px;
     height: 30px;
-}   
+}
+
 button:hover {
     background-color: rgb(94, 248, 94);
 }
+
 #livroMargin {
     margin-left: 120px;
 }
