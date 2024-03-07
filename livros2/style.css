@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(255, 255, 255);       
+    justify-content: space-between;
+}
+
+#livro{
+  margin-left: 80px;
+  width: 90%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#livro2{
+    width: 20%;
+}
+
+#livro3{
+    width: 25%;
+}
+
+.secao1{ 
+    text-align: center;
+}
+
+#generoLivro{
+    text-align: center;
+    background: linear-gradient(to right, #ffffff, #f6ff72, #f6ff72, #f6ff72, #ffffff);
+    padding: 8px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+
+#generoLivro2{
+    text-align: center;
+    background: linear-gradient(to right, #fbfbfb, #81ef8a, #81ef8a,#81ef8a, #fbfbfb);
+    padding: 8px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+
+#generoLivro3{
+    text-align: center;
+    background: linear-gradient(to right, #fbfbfb, #ff3737, #ff3737, #ff3737, #fbfbfb);
+    padding: 8px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+#title{
+    display: flex;
+    text-align: left;
+    font-size: 14px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+#pagLivro{
+    display: flex;
+    text-align: left;
+    font-size: 14px;
+}
+#hamburguer{
+    display: flex;
+    text-align: left;
+    font-size: 10px;
+    align-items: center;
+}
+.livrosize{
+    margin-top: 30px;
+    width: 30%;
+    height: 600px;
+    justify-content: space-around;
+}
+#button1{
+    border: 1px solid  #f6ff72;
+    border-radius: 10px;
+    width: 60%;
+    height: 30px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #f9ff9e, #f6ff72, #effd30,#f1ff2d,#f6ff72, #f9ff9e); 
+    
+}
+
+#button1:hover{
+    background: linear-gradient(to right, #f1ff2d, #f9ff9e, #ffffff,#fffffd,#f9ff9e, #f1ff2d); 
+}
+#button2{
+    border: 1px solid  #60ea48;
+    border-radius: 10px;
+    width: 60%;
+    height: 30px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #ffffff, #a0f790, #60ea48,#60ea48,#b6f6ab, #ffffff); 
+    
+}
+
+#button2:hover{
+    background: linear-gradient(to right, #60ea48, #a0f790, #ffffff,#ffffff,#b6f6ab, #60ea48); 
+}
+#button3{
+    border: 1px solid  #ff0000;
+    border-radius: 10px;
+    width: 60%;
+    height: 30px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #f59393, #ff3737, #ff3737,#ff3737,#ff3737, #f8a3a3); 
+}
+
+#button3:hover{
+    background: linear-gradient(to right, #ff3737, #f59393, #f59393, #ff3737 );
+}
+#imgLivro{
+    margin-left: 15px;
+    width:70px ;
+}
