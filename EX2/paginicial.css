@@ -5,12 +5,14 @@
 }
 body{
     height: 100vh;
+    background: linear-gradient(100deg, rgb(169, 207, 243), rgb(220, 235, 250), #ffff, rgb(217, 236, 254), rgb(171, 214, 255));
 }
 
 
 nav {
-    background: linear-gradient(to bottom,rgb(180, 215, 248),rgb(225, 240, 254),rgb(237, 245, 252), #ffff, rgb(233, 241, 248),  rgb(225, 240, 254), rgb(146, 202, 255) );
+    background: #ffffff;
     font-size: 16px;
+    border-bottom: 1px solid rgb(115, 186, 252);
 }
 
 nav li {
@@ -18,14 +20,17 @@ nav li {
 }
 
 nav li a {
+    align-items: left;
+    border-right: 1px solid rgb(182, 214, 245);
     display: inline-block;
     color: rgb(4, 138, 255);
     text-decoration: none;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
+
 nav li a:hover {
-    background-color: rgba(201, 226, 249, 0.684);
+    background-color: rgba(207, 227, 247, 0.684);
     box-shadow: 0 0 2px rgb(4, 138, 255);
 }
 .subMenu {
@@ -59,16 +64,21 @@ hr{
 }
 button{
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     border-radius: 17px;
-    background-color: rgba(201, 226, 249, 0.684);
+    background-color: rgba(195, 220, 244, 0.636);
     cursor: pointer;
     color: rgb(4, 138, 255);
-    border-color: rgb(4, 138, 255);
+    border: none;
+    border: thin solid;
 }
 button:hover{
     color: rgba(228, 241, 253, 0.851);
-    background-color: rgba(4, 138, 255, 0.8);
+    background-color: rgba(50, 156, 249, 0.8);
     transition: 0.2s all;
     border-radius: 15px;
+}
+.formulario h1{
+    font-size: 40px;
+    margin-bottom: 25px;
 }

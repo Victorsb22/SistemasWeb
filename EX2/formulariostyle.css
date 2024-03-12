@@ -1,0 +1,87 @@
+::after::before {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(150deg, rgb(151, 199, 244), rgb(201, 227, 251), #ffff, rgb(190, 223, 254), rgb(146, 202, 255));
+    height: 100vh;
+
+}
+
+body,
+textarea {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 800px;
+}
+
+.formBox .title {
+    padding: 24px 32px;
+    font-size: 24px;
+    border-bottom: thin solid #ccc;
+}
+
+.formBox form {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.formBox input,
+.formBox textarea {
+    width: 46%;
+    height: 40px;
+    border-radius: 8px;
+    border: thin solid #999;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+}
+
+.formBox input:first-child {
+    margin-right: 15px;
+}
+
+.formBox input[name=subject]{
+    width: 100%;
+}
+.formBox textarea{
+    width: 100%;
+    height: 180px;
+    padding: 16px;
+}
+
+.formBox button{
+    border-radius: 15px;
+    width: 150px;
+    margin-right: 20px;
+    padding: 8px;
+    background-color: rgba(132, 189, 243, 0.864);
+    border: none;
+    box-shadow: 2px 1px 3px #999 ;
+    color: #ffff;
+    cursor: pointer;
+}
+.formBox button:hover{
+    background-color: rgba(16, 133, 243, 0.864);
+    box-shadow: 3px 3px 5px #999 ;
+}

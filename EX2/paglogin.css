@@ -1,25 +1,26 @@
 body{
-    background: linear-gradient(to bottom,rgb(180, 215, 248),rgb(225, 240, 254), #ffff,  rgb(225, 240, 254), rgb(146, 202, 255) );
+    background: linear-gradient(-150deg, rgb(151, 199, 244), rgb(201, 227, 251), #ffff, rgb(190, 223, 254), rgb(146, 202, 255));
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
 }
 h1{
     text-align: center;
 }
 
 .login{
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom:100px;
     padding-left: 30px;
     padding-right: 30px;
     border-style: solid;
+    height: 300px;
     display: grid;
-    width: 20%;
+    width: 400px;
     gap: 3px;
     border-color: rgb(118, 190, 254);
     color: rgb(51, 160, 255);
@@ -33,17 +34,19 @@ h1{
     padding: 7px;
     border: none;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 20px;
     color: #ffff;
     cursor: pointer;
  }
  .btnLogin:hover{
     background-color:rgb(0, 130, 243) ;
  }
- input{
+ .login input{
+    margin-top: -15px;
     font-size: 16px;
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
     padding: 3px;
  }
+
